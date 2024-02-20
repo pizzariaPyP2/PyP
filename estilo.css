@@ -1,0 +1,249 @@
+*{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+#header{
+	background-color: red;
+	z-index: 1;
+}
+
+body{
+	background: linear-gradient(100deg, yellow, green);
+}
+
+}
+html{
+	scroll-behavior: smooth;
+}
+	
+
+
+#h1-header{
+	color: #fff; 
+	font-size: arial;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;3
+
+}
+.h3-header{
+	color: #fff;
+	font-size: arial;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.link-cabeçalho{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: serif;
+	font-weight: bold;
+
+
+}
+
+#navegação{
+	padding-inline: 10px;
+	text-align: right;
+	word-spacing: 10px;
+}
+.section-1{
+	color: #fff;
+	background-color: red;
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	height: 160px;
+	border-radius: 12px;
+
+}
+.h2-section1{
+	color: yellow;
+	font-family: serif;
+	font-size: 20px;
+	padding-top: 20px;
+
+
+}
+
+.p1{
+	padding-top: 13px;
+	font-family: serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#section-grid{
+	padding: 10px;
+	height: 10%;
+	padding-bottom: 28px;
+	display: grid;
+	
+
+}
+
+.section-2{
+	background-color: red;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 90%;
+	height: 100%;
+	border-radius: 30px;
+	text-align:center;
+	font-family: serif;
+	justify-items: center;
+	display: grid;
+	grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+
+}
+
+.section-3{
+	background-color: red;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 90%;
+	height: 100%;
+	border-radius: 30px;
+	text-align:center;
+	font-family: serif;
+	justify-items: center;
+	display: grid;
+	grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+
+}
+
+.section-4{
+	background-color: red;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 90%;
+	height: 100%;
+	border-radius: 30px;
+	text-align:center;
+	font-family: serif;
+	justify-items: center;
+	display: grid;
+	grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+
+}
+
+.titulo1{
+	background-color: violet;
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	height: 50px;
+	border-radius: 40px;
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+
+.grid{
+	background-color: green;
+	text-align: center;
+	display: grid;
+	height: 100%;
+	grid-column-gap: 18px;
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 5px;
+	display: grid;
+	
+
+}
+
+.sub-grid{
+	margin: 0 auto;
+	padding: 20%;
+	background-color: #fff;
+	
+
+
+}
+.img-pizza{
+	max-width: 100%;
+
+}
+
+.h2-cardapio{
+	font-family: serif;
+	font-size: 35px;
+	background-color: yellow;
+	border-radius: 12px;
+	background-position: center;	
+}
+
+.h2-sub-grid{
+	font-family: serif;
+	font-size: 20px;
+	color: red;
+	padding-bottom: 20px;
+
+
+}
+
+.p-preços{
+	font-family: cursive;
+	font-size: 30px;
+	
+}
+
+
+.botao-acao{
+	width: 70%;
+	background-color: red;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.link-cabeçalho{
+	color: yellow;
+	
+
+}
+
+.link-cabeçalho:hover{
+	color: black;
+	transition: all ease in aout;
+}
+
+#pizza-calabresa{
+	height: 60%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#rodape{
+	background-color: red;
+	border-radius: 50px;
+
+}
+
+
+#h2-rodape{
+	text-align: center;
+	color: black;
+	font-size: 25px;
+	font-family: serif;
+
+}
+
+.p1-footer{
+	color: black;
+	font-family: serif;
+	padding-left: 50px;
+	font-size: 20px;
+	padding-bottom: 10px;
+
+}
